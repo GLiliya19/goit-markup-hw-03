@@ -84,7 +84,8 @@ img {
 /*-----------HEADER-------------*/
 
 .header {
-    border-bottom: 1px solid #e7e9fc
+    border-bottom: 1px solid #e7e9fc;
+    padding: 24px 0;
 }
 
 .logo {
@@ -149,9 +150,7 @@ img {
     gap: 40px;
 }
 
-.header-address-item {
-    padding: 24px 0
-}
+.header-address-item {}
 
 .header-address-link {
     font-size: 16px;
@@ -188,6 +187,7 @@ img {
     color: #FFFFFF;
     margin: 0 auto;
     max-width: 496px;
+    margin-bottom: 8px;
 }
 
 .hero-btn {
@@ -258,7 +258,7 @@ img {
 }
 
 .team-title {
-    margin-bottom: 72px;
+    margin-bottom: 8px
 }
 
 .team-list {
@@ -359,6 +359,10 @@ img {
     padding: 100px 0
 }
 
+.footer-link {
+    display: inline-block;
+    margin-bottom: 16px;
+}
 
 .f-span {
     color: #F4F4FD;
@@ -369,6 +373,5 @@ img {
     line-height: var(--typical-lh);
     letter-spacing: 0.02em;
     color: #F4F4FD;
-    padding-top: 16px;
     max-width: 264px;
 }
