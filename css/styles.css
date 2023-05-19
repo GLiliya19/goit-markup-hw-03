@@ -85,7 +85,6 @@ img {
 
 .header {
     border-bottom: 1px solid #e7e9fc;
-    padding: 24px 0;
 }
 
 .logo {
@@ -150,7 +149,9 @@ img {
     gap: 40px;
 }
 
-.header-address-item {}
+.header-address-item {
+    padding: 24px 0;
+}
 
 .header-address-link {
     font-size: 16px;
@@ -211,9 +212,7 @@ img {
     padding: 120px 0;
 }
 
-.benefitst-title {
-    margin-bottom: 8px;
-}
+.benefitst-title {}
 
 .benefits-list {
     display: flex;
@@ -224,7 +223,9 @@ img {
     max-width: 264px;
 }
 
-.benefits-item-title {}
+.benefits-item-title {
+    margin-bottom: 8px;
+}
 
 .benefits-item-text {
     padding-top: 8px;
@@ -258,7 +259,7 @@ img {
 }
 
 .team-title {
-    margin-bottom: 8px
+    margin-bottom: 72px;
 }
 
 .team-list {
@@ -280,7 +281,7 @@ img {
 }
 
 .team-item-name {
-    padding-top: 32px;
+    margin-bottom: 8px;
     text-align: center;
 }
 
