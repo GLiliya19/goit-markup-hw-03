@@ -115,8 +115,6 @@ img {
 .header-cnt {
     display: flex;
     justify-content: space-between;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .header-nav {
@@ -218,8 +216,6 @@ img {
 }
 
 .benefits-list {
-    padding-top: 120px;
-    padding-bottom: 120px;
     display: flex;
     gap: 24px;
 }
@@ -246,8 +242,6 @@ img {
 }
 
 .works-list {
-    /* padding-top: 72px; */
-    padding-bottom: 120px;
     display: flex;
     gap: 24px;
 }
@@ -268,8 +262,6 @@ img {
 }
 
 .team-list {
-    padding-top: 72px;
-    padding-bottom: 120px;
     display: flex;
     gap: 24px;
 }
@@ -352,14 +344,11 @@ img {
 .example-img {}
 
 .example-title {
-    padding-top: 32px;
     margin-bottom: 8px
 }
 
 .example-text {
     color: #434455;
-    padding-top: 8px;
-    padding-bottom: 32px;
 }
 
 
