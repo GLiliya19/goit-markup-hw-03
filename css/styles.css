@@ -79,7 +79,7 @@ img {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    outline: 2px solid coral;
+    /* outline: 2px solid coral; */
 }
 
 /*-----------HEADER-------------*/
@@ -308,6 +308,7 @@ img {
 
 .example-list {
     padding-top: 72px;
+    padding-bottom: 120px;
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
@@ -316,7 +317,11 @@ img {
 
 .example-item {
     /* flex-basis: calc((100% - 2 * 24px) / 3); */
-    /* border: 1px solid #E7E9FC; */
+
+}
+
+.card-text {
+    border: 1px solid #E7E9FC;
 }
 
 .example-link {}
